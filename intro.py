@@ -57,7 +57,8 @@ st.latex(r"\begin{pmatrix}a&b\\c&d\end{pmatrix}=\begin{pmatrix}1\\2 \end{pmatrix
 
 st.latex(r"\pi^2")
 
-
+st.image("https://www.google.com/imgres?q=nature%20include%20ai&imgurl=https%3A%2F%2Fmiro.medium.com%2F1*2G8tZ2grE33gUhcnJOANZw.jpeg&imgrefurl=https%3A%2F%2Fmedium.com%2F%40srinivasaraghavak%2Fnature-vs-ai-the-heisenberg-standoff-7df1d93a3913&docid=rmTzs5Ya068ZYM&tbnid=BAiIsD4_hcU2QM&vet=12ahUKEwjps_yNrPqUAxUGbWwGHQRgCXQQnPAOegUIrAIQAA..i&w=640&h=832&hcb=2&ved=2ahUKEwjps_yNrPqUAxUGbWwGHQRgCXQQnPAOegUIrAIQAA"
+        ,caption = "image is from online")
 uploaded_file = st.file_uploader("upload the image",type=["jpg","png","jpeg"])
 
 if uploaded_file is not None:

@@ -57,8 +57,6 @@ st.latex(r"\begin{pmatrix}a&b\\c&d\end{pmatrix}=\begin{pmatrix}1\\2 \end{pmatrix
 
 st.latex(r"\pi^2")
 
-img = Image.open("image.jpeg")
-st.image(img, caption= "first image",use_container_width=True)
 
 uploaded_file = st.file_uploader("upload the image",type=["jpg","png","jpeg"])
 

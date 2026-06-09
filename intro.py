@@ -78,7 +78,7 @@ class Harsha{
 }
 """
 
-st.code(code,language="java")
+st.code(code,language="java",title = "java")
 
 st.markdown("---")
 
